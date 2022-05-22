@@ -582,11 +582,6 @@ vendor/lib64/vendor.qti.diaghal@1.0.so
 vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
 
-# Display (CWB)
-odm/etc/vintf/manifest/manifest_oplus_cwb.xml
-odm/lib64/vendor.oplus.hardware.cwb@1.0.so
-vendor/lib64/libcwb_sm8350.so
-
 # Display (Features)
 vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc
@@ -596,18 +591,12 @@ vendor/etc/OnePlus_QC_LTM_Commercial_SM8350_2021_01_19.pfm
 vendor/lib64/libhdr_tm.so
 
 # Display (HWC)
-odm/lib64/libsnapdragoncolor-pxlw.so
-vendor/bin/hw/vendor.qti.hardware.display.composer-service
 vendor/bin/qdcmss
 vendor/etc/init/qdcmss.rc
 vendor/etc/snapdragon_color_libs_config.xml
-vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libdpps.so
-vendor/lib64/libhistogram.so
 vendor/lib64/libqdcm-mode-parser.so
 vendor/lib64/libqdutils.so
-vendor/lib64/libsdmcore.so
-vendor/lib64/libsdmutils.so
 vendor/lib64/libsnapdragoncolor-manager.so
 vendor/lib64/libsnapdragoncolor-qdcm.so
 
@@ -621,7 +610,6 @@ vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libqseed3.so
 vendor/lib64/librcmask.so
-vendor/lib64/libsdedrm.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-colormgr-algo.so
 vendor/lib64/libsdm-diag.so
@@ -935,15 +923,6 @@ vendor/firmware/ipa_fws.b03
 vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
-
-# Iris
-odm/lib64/libpwirisfeature.so
-odm/lib64/libpwirishalwrapper.so
-odm/lib64/vendor.pixelworks.hardware.display@1.0.so
-odm/lib64/vendor.pixelworks.hardware.display@1.1.so
-odm/lib64/vendor.pixelworks.hardware.feature@1.0.so
-vendor/lib64/libpwirisfeature.so
-vendor/lib64/libpwirishalwrapper.so
 
 # IRQ balance
 vendor/bin/msm_irqbalance
