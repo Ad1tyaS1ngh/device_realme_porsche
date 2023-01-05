@@ -116,6 +116,7 @@ class BiometricsFingerprint : public IBiometricsFingerprint,
     sp<V2_1::IBiometricsFingerprintClientCallback> mClientCallback;
 
     int mOplusDisplayFd;
+    bool isEnrolling;
 };
 
 }  // namespace implementation
