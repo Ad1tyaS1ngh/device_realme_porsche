@@ -308,6 +308,7 @@ PRODUCT_PACKAGES += \
     AOSPPorscheSystemUIOverlay \
     PorscheCarrierConfigOverlay \
     PorscheFrameworksOverlay \
+    PorscheNfcOverlay \
     PorscheOPlusFrameworksOverlay \
     PorscheOPlusSettingsOverlay \
     PorscheOPlusSettingsProviderOverlay \

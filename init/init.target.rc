@@ -35,6 +35,8 @@ on early-init
     write /proc/sys/kernel/sched_boost 1
     wait /sys/devices/soc0/soc_id
 
+    setprop ro.boot.hardware.sku porsche
+
 on init
     # Scheduler uclamp
     mkdir /dev/cpuctl/foreground
