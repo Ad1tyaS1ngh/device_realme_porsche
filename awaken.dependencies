@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "Ad1tyaS1ngh/hardware_oplus",
+    "target_path": "hardware/oplus",
+    "branch": "T",
+    "remote": "github"
+  },
+  {
+    "repository": "Ad1tyaS1ngh/kernel_oneplus_sm8350",
+    "target_path": "kernel/oneplus/sm8350",
+    "branch": "T",
+    "remote": "github"
+  },
+  {
+    "repository" : "Ad1tyaS1ngh/vendor_realme_porsche",
+    "target_path": "vendor/realme/porsche",
+    "branch": "T",
+    "remote": "github"
+  }
+]

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_porsche.mk
+    $(LOCAL_DIR)/awaken_porsche.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_porsche-user \
-    arrow_porsche-userdebug \
-    arrow_porsche-eng
+    awaken_porsche-user \
+    awaken_porsche-userdebug \
+    awaken_porsche-eng
