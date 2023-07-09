@@ -314,6 +314,7 @@ PRODUCT_PACKAGES += \
     PorscheFrameworksOverlay \
     PorscheOPlusFrameworksOverlay \
     PorscheOPlusSettingsOverlay \
+    PorscheOPlusSettingsProviderOverlay \
     PorscheOPlusSystemUIOverlay \
     PorscheWifiOverlay
 
