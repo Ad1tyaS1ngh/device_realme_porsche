@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## are from realme GT 2 (RMX3312_11_C.14).
+## are from realme GT 2 (RMX3312_11_C.15).
 
 # ACDBs
 odm/etc/acdbdata/Bluetooth_cal.acdb
