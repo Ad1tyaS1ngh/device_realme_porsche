@@ -229,3 +229,4 @@ SOONG_CONFIG_OPLUS_LINEAGE_VIBRATOR_HAL_USE_EFFECT_STREAM := true
 
 # Include the proprietary files BoardConfig.
 include vendor/realme/porsche/BoardConfigVendor.mk
+include vendor/realme/porsche-firmware/BoardConfigVendor.mk

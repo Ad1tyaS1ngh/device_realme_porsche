@@ -16,5 +16,11 @@
     "target_path": "vendor/realme/porsche",
     "branch": "T",
     "remote": "github"
+  },
+  {
+    "repository" : "ad1tyas1ngh/vendor_realme_porsche-firmware",
+    "target_path": "vendor/realme/porsche-firmware",
+    "branch": "T",
+    "remote": "gitlab"
   }
 ]
