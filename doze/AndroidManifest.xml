@@ -39,7 +39,7 @@
         </receiver>
 
         <service android:name=".DozeService"
-                 android:permission="OneplusDozeService"
+                 android:permission="realmeDozeService"
                  android:exported="true">
         </service>
 
