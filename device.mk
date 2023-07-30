@@ -302,11 +302,8 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Overlays
-$(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
-
 PRODUCT_PACKAGES += \
     AOSPPorscheApertureOverlay \
-    AOSPPorscheDozeOverlay \
     AOSPPorscheFrameworksOverlay \
     AOSPPorscheSettingsOverlay \
     AOSPPorscheSystemUIOverlay \
@@ -316,6 +313,8 @@ PRODUCT_PACKAGES += \
     PorscheOPlusSettingsOverlay \
     PorscheOPlusSettingsProviderOverlay \
     PorscheOPlusSystemUIOverlay \
+    PorscheSystemUIOverlay \
+    PorscheTelephonyOverlay \
     PorscheWifiOverlay
 
 # Partitions
@@ -375,9 +374,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    hardware/oplus
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Storage
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)

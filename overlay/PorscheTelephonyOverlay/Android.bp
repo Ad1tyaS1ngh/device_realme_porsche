@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "AOSPPorscheDozeOverlay",
-    vendor: true,
+    name: "PorscheTelephonyOverlay",
+    product_specific: true,
 }

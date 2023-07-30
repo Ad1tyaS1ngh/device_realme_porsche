@@ -1,11 +1,5 @@
 [
   {
-    "repository": "Ad1tyaS1ngh/hardware_oplus",
-    "target_path": "hardware/oplus",
-    "branch": "T",
-    "remote": "github"
-  },
-  {
     "repository": "Ad1tyaS1ngh/kernel_realme_sm8350",
     "target_path": "kernel/realme/sm8350",
     "branch": "T",
