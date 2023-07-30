@@ -1,5 +1,5 @@
 cc_library_shared {
-    name: "liboplusvibratoreffect",
+    name: "libporschevibratoreffect",
     defaults: ["oplus_lineage_vibrator_effect_defaults"],
     vendor: true,
     srcs: [
