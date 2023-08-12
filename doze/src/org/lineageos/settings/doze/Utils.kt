@@ -26,10 +26,8 @@ object Utils {
     const val DOZE_ENABLE = "doze_enable"
 
     const val CATEGORY_PICKUP_SENSOR = "pickup_sensor"
-    const val CATEGORY_PROXIMITY_SENSOR = "proximity_sensor"
 
     const val GESTURE_PICK_UP_KEY = "gesture_pick_up_type"
-    const val GESTURE_POCKET_KEY = "gesture_pocket"
 
     private fun startService(context: Context) {
         Log.d(TAG, "Starting service")
@@ -42,7 +40,7 @@ object Utils {
     }
 
     fun checkDozeService(context: Context) {
-        if (isDozeEnabled(context) && !isAlwaysOnEnabled(context) && areGesturesEnabled(context)) {
+        if (isDozeEnabled(context) && !isAlwaysOnEnabled(context) && isPickUpEnabled(context)) {
             startService(context)
         } else {
             stopService(context)
@@ -78,11 +76,6 @@ object Utils {
         return AmbientDisplayConfiguration(context).alwaysOnAvailable()
     }
 
-    private fun isGestureEnabled(context: Context?, gesture: String?): Boolean {
-        return PreferenceManager.getDefaultSharedPreferences(context)
-            .getBoolean(gesture, false)
-    }
-
     fun isPickUpEnabled(context: Context?): Boolean {
         return PreferenceManager.getDefaultSharedPreferences(context)
             .getString(GESTURE_PICK_UP_KEY, "0") != "0"
@@ -91,14 +84,6 @@ object Utils {
     fun isPickUpSetToWake(context: Context?): Boolean {
         return PreferenceManager.getDefaultSharedPreferences(context)
             .getString(GESTURE_PICK_UP_KEY, "0") == "2"
-    }
-
-    fun isPocketEnabled(context: Context?): Boolean {
-        return isGestureEnabled(context, GESTURE_POCKET_KEY)
-    }
-
-    private fun areGesturesEnabled(context: Context?): Boolean {
-        return isPickUpEnabled(context) || isPocketEnabled(context)
     }
 
     fun getSensor(sm: SensorManager, type: String?): Sensor? {
