@@ -297,6 +297,9 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libstagefrighthw
 
+# OplusCamera
+$(call inherit-product-if-exists, vendor/realme/porsche-opluscamera/opluscamera.mk)
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPPorscheApertureOverlay \
