@@ -211,7 +211,6 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt
 odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 
 # Camera
-odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
@@ -223,20 +222,18 @@ odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/config/ov02b10
 odm/etc/camera/config/ov08d10
 odm/etc/camera/config/video_beauty_default_config
+odm/etc/camera/model/DocDetectV15.xbin
+odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/dualcal_golden.bin
 odm/etc/camera/eis_camera.vcfg
+odm/etc/camera/fb_default
 odm/etc/camera/fdc_cl.cache
 odm/etc/camera/fwk_config.json
 odm/etc/camera/gasryuv_1.2_wp.model
-odm/etc/camera/license_release_fdc.lic
-odm/etc/camera/model/DocDetectV15.xbin
 odm/etc/camera/model_fdc.data
-odm/etc/camera/model/license.lic
 odm/etc/camera/mtStereoParams.bin
 odm/etc/camera/mwStereoParams.bin
 odm/etc/camera/settings_fdc.txt
-odm/etc/camera/singleblur/license_release.license
-odm/etc/camera/fb_default
 odm/etc/camera/wide.bin
 odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
 odm/lib/libDeVIS.so
