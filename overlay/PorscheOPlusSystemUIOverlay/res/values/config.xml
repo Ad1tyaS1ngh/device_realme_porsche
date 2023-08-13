@@ -12,6 +12,9 @@
           vibrator is capable of subtle vibrations -->
      <bool name="config_vibrateOnIconAnimation">true</bool>
 
+    <!-- Preferred max refresh rate at keyguard, if supported by the display. -->
+    <integer name="config_keyguardMaxRefreshRate">60</integer>
+
     <!-- The Enrollment Progress bar for UDFPS sensor in pixels -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">99</integer>
 
