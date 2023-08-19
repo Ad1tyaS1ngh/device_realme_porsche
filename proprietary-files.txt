@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## are from realme GT 2 (RMX3312_11_C.15).
+## are from realme GT 2 (RMX3312_13.1.0.1410(EX01)).
 
 # ACDBs
 odm/etc/acdbdata/Bluetooth_cal.acdb
@@ -251,7 +251,6 @@ odm/lib64/camera/com.qti.sensormodule.qtech_imx766_216B2.bin
 odm/lib64/camera/com.qti.sensormodule.shinetech_ov02b10.bin
 odm/lib64/camera/com.qti.sensormodule.shinetech_ov08d10.bin
 odm/lib64/camera/com.qti.sensormodule.sunny_imx471_216B2.bin
-odm/lib64/camera/com.qti.tuned.default.bin
 odm/lib64/camera/com.qti.tuned.sm8350_imx471_sunny_216B2.bin
 odm/lib64/camera/com.qti.tuned.sm8350_ov02b10_shinetech.bin
 odm/lib64/camera/com.qti.tuned.sm8350_ov08d10_shinetech.bin
@@ -830,8 +829,8 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 # Hotword Enrollment
 my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml
 my_product/framework/com.android.hotwordenrollment.common.util.jar:product/framework/com.android.hotwordenrollment.common.util.jar
-my_product/priv-app/HotwordEnrollmentOKGoogle.apk:product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogle.apk
-my_product/priv-app/HotwordEnrollmentXGoogle.apk:product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogle.apk
+my_product/priv-app/HotwordEnrollmentOKGoogleHEXAGON.apk:product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogle.apk
+my_product/priv-app/HotwordEnrollmentXGoogleHEXAGON.apk:product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogle.apk
 
 # IMS - from renoir - 22.5.11
 system_ext/app/ImsRcsService/ImsRcsService.apk|d03d3142f3518e755d02ace26b17170218ed8b4b
