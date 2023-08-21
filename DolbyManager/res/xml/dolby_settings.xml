@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/dolby_title">
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:defaultValue="true"
+        android:key="dolby_enable"
+        android:title="@string/dolby_enable" />
+
+    <ListPreference
+        android:key="dolby_profile"
+        android:entries="@array/dolby_profile_entries"
+        android:entryValues="@array/dolby_profile_values"
+        android:defaultValue="0"
+        android:title="@string/dolby_profile_title"
+        android:summary="%s"
+        android:icon="@drawable/ic_dolby" />
+
+    <ListPreference
+        android:key="dolby_preset"
+        android:entries="@array/dolby_preset_entries"
+        android:entryValues="@array/dolby_preset_values"
+        android:defaultValue="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+        android:title="@string/dolby_preset_title"
+        android:summary="%s"
+        android:icon="@drawable/ic_preset"/>
+
+</PreferenceScreen>
