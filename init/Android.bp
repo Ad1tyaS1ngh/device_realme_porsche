@@ -3,6 +3,13 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+cc_library_static {
+    name: "libinit_porsche",
+    recovery_available: true,
+    shared_libs: ["libbase"],
+    srcs: ["init_porsche.cpp"],
+}
+
 prebuilt_etc {
     name: "fstab.default",
     src: "fstab.default",
