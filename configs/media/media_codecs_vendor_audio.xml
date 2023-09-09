@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2015-2020 The Linux Foundation. All rights reserved.
+     Not a contribution.
+     Copyright (C) 2012 The Android Open Source Project
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<Included>
+    <Decoders>
+        <MediaCodec name="OMX.google.opus.decoder" type="audio/opus" update="true" rank="100"/>
+        <MediaCodec name="OMX.google.raw.decoder" type="audio/raw" update="true" rank="1"/>
+        <!-- SimpleOMXComponet based software decoder-->
+    </Decoders>
+        <Include href="media_codecs_dolby_audio.xml" />
+</Included>
