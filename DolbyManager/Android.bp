@@ -9,6 +9,7 @@ android_app {
     name: "DolbyManager",
     srcs: ["src/**/*.java"],
     certificate: "platform",
+    overrides: ["MusicFX"],
     platform_apis: true,
     privileged: true,
     system_ext_specific: true,
