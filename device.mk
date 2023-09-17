@@ -302,7 +302,6 @@ $(call inherit-product-if-exists, vendor/realme/porsche-opluscamera/opluscamera.
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPPorscheApertureOverlay \
     AOSPPorscheFrameworksOverlay \
     AOSPPorscheSettingsOverlay \
     AOSPPorscheSystemUIOverlay \
@@ -316,6 +315,11 @@ PRODUCT_PACKAGES += \
     PorscheSystemUIOverlay \
     PorscheTelephonyOverlay \
     PorscheWifiOverlay
+
+ifeq ("$(wildcard vendor/realme/porsche-opluscamera)", "")
+PRODUCT_PACKAGES += \
+    AOSPPorscheApertureOverlay
+endif
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
